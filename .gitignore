@@ -1,11 +1,20 @@
-# Python derlenmiş dosyaları
 __pycache__/
 *.pyc
 *.pyo
-
-# MacOS sistem dosyaları
-.DS_Store
-
-# Virtual environment
-venv/
+*.pyd
+*.manifest
+*.spec
+.env
+.venv
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+nltk_data/
+dev.md
+
+
+
+
