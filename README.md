@@ -1,14 +1,9 @@
-req:
-python,
-install nltk (pip install nltk)
+# Wordle Hack
 
+## to run
 
-run gui.py
+   docker build -t wordle-app .
 
+   docker run -it --rm wordle-app
 
-next step:
-lang
-meaningfull readme
-little improvement 
-
-** works on only eng words now
+### only works with english words
